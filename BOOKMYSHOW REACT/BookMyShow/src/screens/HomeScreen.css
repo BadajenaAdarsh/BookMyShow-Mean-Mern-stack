@@ -1,0 +1,43 @@
+.MovieRows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TrendingMovies {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b3149;
+  padding: 30px;
+}
+.Heading {
+  color: white;
+}
+
+.TrendingMovies > .MovieRows > p {
+  color: white;
+}
+
+.NotFoundText {
+  margin-top: 10px;
+}
+
+.RecommendedMovies {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.HomeScreen {
+  padding: 20px;
+}
+
+.BannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GenreSelector {
+  background-color: #fff;
+  font-size: 12px;
+}
